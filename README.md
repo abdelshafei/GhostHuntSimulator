@@ -1,15 +1,15 @@
 Purpose Of The Program:
 
-    The purpose of the program is to work with a multi-threaded simulation. Furthermore, this simulation contains 5 threads of which
-    there will be 4 threads that represent ghost hunters and the other one represent the ghost that is being hunted. In this simulation
-    there will be a house structure (A.K.A the in-game Map) that the threads will be placed in, it will contain rooms that are
-    represented as a LinkedList, the hunter threads will be placed at the head node of the room LinkedList (A.K.A the Van) and move to
-    a random connected room relative to the room they are in while the ghost thread will be placed in a random node in the room
-    LinkedList and move around the house like the hunters do. Moreover, each hunter will each be specialized in a certain evidence 
-    type that the ghost will drop to be able to collect it and their threads will only exit if all hunters either collect three 
-    distinct pieces of evidence to identify the ghost or will do so if each hunter becomes too bored of not encountering the ghost
-    multiple times sequentially or afraid because they encountered the ghost too much, likewise, the ghost only exits if it becomes too
-    bored of not encountering any hunters while it moves.
+    The purpose of the program is to implement a multi-threaded simulation involving five threads: four representing ghost hunters and
+    one representing the ghost being pursued. The simulation takes place within a house structure, referred to as the in-game map,
+    where the threads are distributed. The house consists of rooms organized as a LinkedList. The hunter threads start at the head node
+    of the LinkedList, known as the Van, and move randomly to connected rooms. Similarly, the ghost thread is initially placed in a
+    random node within the LinkedList and moves around the house in the same way as the hunters.
+    
+    Each hunter specializes in collecting a specific type of evidence that the ghost drops. The hunters' threads will only terminate
+    under specific conditions: if all hunters collect three distinct pieces of evidence to identify the ghost, or if the hunters either
+    become too bored from repeatedly failing to encounter the ghost or become too frightened due to encountering it too often.
+    Likewise, the ghost’s thread terminates if it becomes bored from not encountering any hunters during its movement.
 
 List of Files and Their Purposes:
 
