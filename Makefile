@@ -9,7 +9,7 @@ OBJS =main.o utils.o logger.o house.o room.o evidence.o ghost.o hunter.o
 all: $(EXE)
 
 $(EXE): $(OBJS)
-	$(CC) -o $(EXE) $(OBJS)
+	$(CC) -o $(EXE) $(OBJS) -lpthread
 
 main:   main.c
 	$(CC) $(CFLAGS) -c main.c
