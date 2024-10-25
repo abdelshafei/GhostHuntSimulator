@@ -29,7 +29,10 @@ Instructions for Compiling the Program:
 
 Instructions for Running the Program:
 
-    Once after it compiles, Run the program by typing ```./fp``` in the same path into the terminal. Later, the object files and executable can be removed by typing ```make clean```.
+    Once after it compiles, Run the program by typing ```./fp``` in the same path into the terminal. Later, the object files and
+    executable can be removed by typing ```make clean```.
+
+    Furthermore, if you wish to run the program with input redirection then run it by typing: ```./fp < names.txt```.
 
 Instructions for how to Use the Program Once it is Running:
 
