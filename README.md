@@ -36,4 +36,5 @@ Instructions for Running the Program:
 
 Instructions for how to Use the Program Once it is Running:
 
-    Once the program is run, it will ask the user to enter the names of the hunters, after doing so the multithreaded simulation will execute and then finally results will be printed.
+    Once the program is run, it will ask the user to enter the names of the hunters, 
+    after doing so the multithreaded simulation will execute and then finally results will be printed.
